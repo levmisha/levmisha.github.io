@@ -1,0 +1,82 @@
+.bc{	/* bc- botton-content */	
+	margin-top: 60px;
+}
+.bc-t{
+	font-size: 1.2rem;
+}
+.bc-img{
+	width: 100%;
+}
+.bt-column{
+	flex-basis: 50%;
+	margin-right: 5%;
+}
+.bt-column:last-child{
+	margin-right: 0;
+}
+.bt-button-1{
+	background-color: #dd4b2b;
+	color: #fff;
+}
+.bt-button-2{
+	background-color: #4b4e73;
+	color: #fff;
+}
+.footer{
+	background-color: #d75d0e;
+}
+.footer-columns{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-column{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;	
+	margin-top: 55px;
+	margin-bottom: 45px;
+}
+.footer-column span{
+	margin-top: 15px;
+	color: #fff;
+	font-family:Roboto , serif;
+	font-size: 0.8rem;
+}
+.footer-column span:first-child{
+	margin-top: 0;
+}
+.footer-botton{
+	background: url("img/Newsletter.png") no-repeat;
+	background-size:cover;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-botton p{
+transform: translateY(30px);
+width: 50%;
+line-height: 1.8;
+color: #fff;
+font-weight: 300;
+font-size: 1.2rem;
+}
+.footer-botton p span{
+	font-weight: 600;
+}

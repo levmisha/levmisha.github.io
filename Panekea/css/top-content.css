@@ -1,0 +1,117 @@
+@keyframes button{
+	0%{
+		width:100px;
+	}
+	100%{
+		width:300px;
+	}
+}
+button{
+	border-style: none;
+	border-collapse: none;
+	background-color: none;
+	background-image: none;
+}
+.top-content{
+	background-color: #edeff1;
+}
+.title-content{
+	text-align: center;
+	margin-top:40px;
+	margin-bottom: 40px;
+	font-size: 1rem;
+	font-weight:600;
+	color: #31353e;
+	}
+.content-columns{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.ccc{  /*ccc-content-column-change*/
+	color:#31353e;
+}
+.ccc-img{ /*ccc-content-column-change-image*/
+	width:100%;
+	margin:0;
+}
+.ccc-t{ /*ccc-content-column-change-title*/
+	color:#31353e;
+}
+.ccc-b{ /*ccc-content-column-change-button*/
+	margin-top: 20px;
+}
+.Newsletter{
+	background: url("img/Newsletter.png") no-repeat;
+	background-size:cover; 
+	height: 200px;
+	width: 100%;
+}
+.gradient{
+	background: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(6,28,91,.3));
+	background-size:cover; 
+	height:200px;
+	width: 100%;
+}
+
+.nl-title{   /* nl-Newsletter */
+	color: #fff;
+	font-weight: 600;
+	font-size: 1rem;
+	transform: translateY(55px);
+	display: block;
+	text-align: center;
+}
+.nl-text{
+	display: block;
+	font-size: 0.6rem;
+	font-family: Roboto, serif;
+	color: #fff;
+	font-weight: 300;
+	transform: translateY(70px);
+	text-align: center;
+	width: 50%;
+	margin:0 auto;
+	line-height: 1.7;
+}
+.nl-button{
+	text-align: center;
+	transform: translate(20px,90px);
+}
+.nl-button1{
+	overflow: hidden;
+	height: 30px;
+	width: 300px;
+	box-shadow: inset 1px 1px rgba(255,255,255,.5);
+	background-color: rgba(255,255,255,.2);
+	border-radius: 30px;
+	color: #f3f4f6;
+	text-align: left;
+	text-indent:5%;
+	
+}
+.nl-button2{
+	height: 35px;
+	width: 100px;
+	border-radius: 30px;
+	background-color: #f3f4f6;
+	text-align: center;
+	color: #612316;
+	transform: translate(-70px, 1.5px);
+}
+.nl-button2:hover{
+	background-color: #fff;
+}
+.nl-button1::-webkit-input-placeholder {
+	text-indent:5%;
+	color:#31353e;
+	font-style: italic;
+}
+
+.c-c{
+	justify-content: space-around;
+}

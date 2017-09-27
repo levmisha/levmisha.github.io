@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+body{
+	width:100%;
+	font-family:'Roboto Slab', serif;
+	font-size: 100%;
+	width:100%;
+	background-color: #edeff1;
+}
+.all{
+	width:58.5%;
+	margin:0 auto;
+}
+.header{
+	background-color: #edeff1;
+}
+.logo{
+	display: inline-block;
+	margin:18px 0;
+	
+	
+}
+.logo-top{
+	display: inline-block;
+	font-size: 1.5rem;/* 2.25/1,45454545455(Это-16/11)*/
+	color:#31353e;
+	font-weight: 600;
+}
+#menu-checkbox{
+	display: none;
+}
+.logo-bottom{
+	display: inline-block;
+	font-size: 0.67rem;/* 1/1,45454545455(Это-16/11)*/
+	color: #dd4b2b;
+	letter-spacing:0.07em;
+}
+.menu{
+	display: flex;
+	white-space:nowrap;
+	position: relative;
+	bottom:-26px;
+	float:right;
+}
+.menu li{
+	justify-content:flex-end;
+	padding-right:1rem;
+	padding-left:2%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size:0.8rem;/* 1.125/1,45454545455(Это-16/11) /*/
+	list-style-type: none;
+	flex-basis:auto;
+	white-space:nowrap;
+	box-sizing:border-box;
+	cursor: pointer;
+}
+.menu li:first-child{
+	margin-left:0;
+}
+.menu li:first-child{
+	margin-left:0;
+}
+.menu li a{
+	color: #31353e;
+}
+.menu li:hover{
+	display: inline-block;
+	background-color: #dd4b2b;
+	border-radius: 50px;
+}
+.menu li:hover a{
+	color: #fff;
+}
+.main{
+	background: url("img/main.png") no-repeat;
+	background-size: cover;
+	overflow:visible;
+	display: inline-block;
+	width: 100%;
+}
+.title-main{
+	width:100%;
+	text-align: center;
+	font-size: 2.6rem;
+	display: inline-block;
+	margin-top:35%;/*492/1322*/
+	font-weight: 300;
+	color: #fff;
+	-webkit-text-shadow-shadow: 0 10px  #fff;
+	text-shadow: 0 1px #000;
+}
+.title-main2{
+	width:100%;
+	text-align: center;
+	font-size: 1.1rem;/*2.6/2.4(это72/30)*/
+	display: inline-block;
+	margin-top: 2.5%;/*10/1322*/
+	font-weight: 700;
+	color: #fff;
+	-webkit-text-shadow-shadow: 0 10px  #fff;
+	text-shadow: 0 1px #000;	
+}
+.columns{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+	margin-top: 12%;
+	justify-content:space-between;
+}
+.img-main-column{
+	display: inline-block;
+	width: 39.8921832884%;
+	margin-left:30.0539083558%;/*100-(148/371*100)/2 */
+}
+.title-main-column{
+	font-size: 1.08333333333rem;/*2.6/2.4(это72/30)*/
+	color: #fff;
+	text-align: center;
+	margin-top:10%;
+}
+.text-main-column{
+	font-size:0.6rem;	/*1,08333333333/ 2 (Заголовок) */
+	text-align: center;
+	color: #fff;
+	margin-right: 6%;/* 10/371(На самом деле на глаз) */
+	margin-left: 6%;
+	line-height:2;
+	margin-top: 6%;
+}
+.column{
+	width: 31.7094017094%;
+}
+.main-button{
+	background-color: #fff;
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	border-radius: 30px;
+	font-size: 0.8rem;/* 2.6/(72/18) */
+	margin: 0 auto;
+	margin-bottom: 10%; /* 138 / 1322 */
+	transform: translateY(-20px);
+	margin-top: 10%; /* 79 / 1322 */
+	color: #612316;
+	border: none;
+	justify-content: space-around;
+}

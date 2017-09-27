@@ -1,0 +1,85 @@
+.all{
+	width: 70%;
+	margin: 0 auto;
+}
+.hidden{
+	opacity: 0.2;
+}
+/*Меню*/
+.header{
+	background-color: #52D081;
+}
+.nav__ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav__li{
+	padding: 1rem 0;	
+}
+.nav__a{
+	font-size: 2rem;
+	color: #90240E;
+	cursor: pointer;
+	font-weight: 500;
+}
+/*Основная часть*/
+.job{
+	margin-top: 5rem;
+	font-size: 5rem;
+	text-align: center;
+}
+.job__blocks{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.job__block{
+	border:0.5rem solid  #52D081;
+	margin-top: 3rem;
+	position: relative;
+	cursor: pointer;
+}
+
+[class^="job__img"]{
+	background-size: cover;
+	width: 25rem;
+	height: 30rem;
+}
+[class^="job__img"]:hover{
+	opacity: 0.3;
+}
+.job__block:hover::before{
+	content: "Просмотр сайта";
+	font-size: 2.5rem;
+	color: #FF7F65;
+	font-weight: bold;
+	opacity: 1;
+	z-index: 1000;
+	position: absolute;
+	top:13rem;
+	left:0;
+	width: 100%;
+
+}
+.job__img1{
+	background-image: url("../img/bitrix.png");
+}
+.job__img2{
+	background-image: url("../img/mt.png");
+}
+.job__img3{
+	background-image: url("../img/pan.png");
+}
+.job__img4{
+	background-image: url("../img/story.png");
+}
+.job__a{
+	display: inline-block;
+	color: #90240E;
+	border-bottom: 0.3rem solid #90240E;
+	margin-top: 1rem;
+}
+.job__title{
+	color: #FF7F65;
+}

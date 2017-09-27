@@ -1,0 +1,350 @@
+.all{
+	width: 70%;
+	margin:0 auto;
+}
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+/*h1{
+	font-family: 'Ruslan Display', cursive;
+}*/
+/* Шапка*/
+.header{
+	padding: 10px;
+	background: #ff9700;
+	user-select:none;
+}
+.logo{
+	
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2rem;
+}
+.logo__first{
+	color: #fff;
+}
+.logo__last{
+	color: #0c5aa6;
+}
+.menu{
+	display:flex;
+	justify-content: space-between;
+	padding: 0.5rem 0 1rem 0;
+}
+.menu__li{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1.7rem;
+	cursor: pointer;
+	position: relative;
+}
+@media (min-width: 731px) and (max-width: 4000px){
+	.menu__li:hover::after{
+		content: "";
+		position: absolute;
+		display: inline-block;
+		border-bottom: 3px solid #0c5aa6;
+		z-index: 1000;
+		line-height: 0.5rem;
+		width: 100%;
+		bottom: -5px;
+		left: 0;
+	}
+}
+@media (min-width: 1px) and (max-width: 730px){	
+	.main__bloks{
+		margin-left: 25%;
+	}
+	.menu{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	.menu__li{
+		width: 100%;
+		text-align: center;
+		font-size: 2.5rem;
+		border-radius: 2rem;
+	}
+	.menu__li:hover{
+		background: #0c5aa6;
+		color: #fff;
+	}
+	.cont{
+		width: 100%;
+	}
+
+}
+@media (min-width: 731px) and (max-width: 804px){	
+	.all{
+		width: 100%;
+	}
+}
+@media (min-width: 805px) and (max-width: 909px){	
+	.all{
+		width: 90%;
+	}
+}
+@media (min-width: 910px) and (max-width: 1099px){	
+	.all{
+		width: 80%;
+	}
+}
+/* Главное*/
+.main{
+	background: #e8e7e7;
+	user-select:none;
+}
+
+.comp{
+	margin-top: 3rem;
+	padding-bottom: 5rem;
+	padding-top: 1rem;
+}
+.comp__title{
+	color: #0c5aa6;
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+}
+.comp__texts{
+	background: #6bd66b;
+	font-size: 1.5rem;
+	padding:2rem 0;
+}
+.comp__text{
+	margin-top: 2rem;
+}
+.comp__text:first-letter{
+	font-size: 2rem;
+}
+.comp__text:first-child{
+	margin-top:0;
+}
+.comp__text-name{
+	color: #0c5aa6;
+}
+.cont{
+	margin-top: 3rem;
+}
+.cont__title{
+	color: #0c5aa6;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+.cont__texts{
+	font-size: 1.7rem;
+	margin-right: 1rem;
+	width:40%; 
+}
+.cont__wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+@media (min-width: 1px) and (max-width: 800px){	
+	.cont__wrap{
+		flex-wrap: wrap;
+	}
+	.cont__texts{
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+}
+
+
+.services__bloks{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 1rem 0;
+	font-size: 2rem;
+}
+.services__title{
+	color: #0c5aa6;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+.block{
+	margin: auto;
+}
+.block{
+	padding-top: 3rem;
+}
+[class^="block__img"]:hover:after{
+	content: "";
+	background: rgba(255,255,255,.7);
+	padding-top: 1rem;
+	text-align: center;
+	height: 16rem;
+	display:inline-block;
+	font-size: 1.5rem;
+	box-sizing: border-box;
+}
+.block__img1:hover:after{
+	content: "Это обновление помещения без капитальных изменений в планировке. Проводится он несколько чаще, чем капитальный – один раз в 3-7 лет.";
+	padding-top:4rem;
+}
+.block__img2:hover:after{
+	content: "Это целый комплекс различных строительных работ, направленных на улучшение состояния здания. Предполагает полную, а иногда частичную смену конструкций, перепланировку стен в помещении, перенос и изменение инженерных систем.";
+}
+.block__img3:hover:after{
+	content: "Элитный ремонт квартир, офисных помещений с элементами уникального дизайна. ";
+	padding-top: 5rem;
+}
+.block__img4:hover:after{
+	content: "Подробный графический план, согласно которому будут совершаться ремонтные работы. Его составление - широко востребованная услуга, актуальная при необходимости выполнения кардинальных преобразований в интерьере.";
+	padding-top: 0;
+}
+[class^="block__img"]{
+	background-size: cover;
+	width: 22rem;
+	height: 16rem;
+}
+[class^="block__text"]{
+	background: #ff9700;
+	width: 22rem;
+	text-align: center;
+	padding: 1rem 0;
+	cursor: pointer;
+}
+[class^="block__text"]:hover{
+	background: rgb(255,151,0);
+}
+.block__img1{
+	background-image:url("../img/var1.jpg");
+}
+.block__img2{
+	background-image:url("../img/var2.jpg");
+}
+.block__img3{
+	background-image:url("../img/var3.jpg");
+}
+.block__img4{
+	background-image:url("../img/var4.jpg");
+}
+
+/*calc*/
+
+.calc{
+	margin-top: 10rem;
+	background: #6bd66b;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+.calc__title{
+	text-align: center;
+	font-size: 3rem;
+	color: #0c5aa6;
+	font-weight: bold;
+	margin-bottom: -4rem;
+	transform: translateY(-7rem);
+	
+}
+.calc__choose{
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin:1rem 1.4rem 3rem 1rem;
+}
+.calc__type{
+	border-radius: 0.3rem;
+	padding: 1rem;
+	font-size: 1.6rem;
+	width: 45%;
+}
+.calc__size{
+	border-radius: 0.3rem;
+	padding: 1rem;
+	width: 45%;
+	font-size: 1.6rem;
+}
+[class^="calc__settings"]{
+	font-size: 1.5rem;
+	
+	
+}
+.calc__setting__text{
+	width: 3rem;
+	height: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.calc__rez-smail{
+	display: block;
+	margin:0 auto;
+	font-size: 2rem;
+	text-align: center;
+	padding: 1rem 4rem;
+	border-radius: 10px;
+	color: #0c5aa6;
+	margin-bottom: 3rem;
+	
+}
+.calc__rez-smail-zn{
+	font-size: 2.5rem;
+	color: #fff;
+}
+.calc__button{
+	display: block;
+	margin:0 auto;
+	text-align: center;
+	background: #ff9700;
+	padding: 1rem 4rem;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #fff;
+	
+}
+.calc__button:hover{
+	background: #fff;
+	color: #ff9700;
+}
+@media (min-width: 1px) and (max-width: 730px){	
+	.calc__choose{
+		flex-direction: column;
+	}
+	.calc__type{
+		width: 107%;
+		margin-bottom: 2rem;
+	}
+	.calc__size{
+		width: 100%;
+	}
+
+}
+
+.footer{
+	background: #0c5aa6;
+	color: #fff;
+	width: 100%;
+	font-size: 1.5rem;
+	user-select:none;
+}
+.footer__{
+	padding:3rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-info{
+	width: 60%;
+}
+.footer__ul{
+	font-size: 2rem;
+	margin-right: 2rem;
+}
+.footer__li{
+	border-bottom:2px #ff9700 dashed;
+	cursor: pointer;
+}
