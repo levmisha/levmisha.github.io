@@ -63,17 +63,18 @@
 
 }
 .job__img1{
-	background-image: url("../img/bitrix.png");
-}
-.job__img2{
-	background-image: url("../img/mt.png");
-}
-.job__img3{
-	background-image: url("../img/pan.png");
-}
-.job__img4{
 	background-image: url("../img/story.png");
 }
+.job__img2{
+	background-image: url("../img/bitrix.png");
+}
+.job__img3{
+	background-image: url("../img/mt.png");
+}
+.job__img4{
+	background-image: url("../img/pan.png");
+}
+
 .job__a{
 	display: inline-block;
 	color: #90240E;
