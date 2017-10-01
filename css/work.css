@@ -40,6 +40,27 @@
 	position: relative;
 	cursor: pointer;
 }
+@media (min-width: 1085px) and (max-width: 1240px){
+	.all{
+		width:80%;
+	}
+}
+
+@media (min-width: 955px) and (max-width: 1084px){
+	.all{
+		width:90%;
+	}
+}
+@media (min-width: 1px) and (max-width: 954px){
+	.all{
+		width:100%;
+	}
+}
+@media (min-width: 1px) and (max-width: 848px){
+	.job__blocks{
+		justify-content: center;
+	}
+}
 
 [class^="job__img"]{
 	background-size: cover;
